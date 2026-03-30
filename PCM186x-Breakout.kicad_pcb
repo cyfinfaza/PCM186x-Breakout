@@ -2060,7 +2060,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at -0.009665 1.231171 0)
+			(at -2.422665 -0.038829 0)
 			(layer "F.SilkS")
 			(uuid "e9c0b554-26ec-4f84-8e20-61e7d5b7b5ba")
 			(effects
@@ -4640,6 +4640,7 @@
 	(gr_rect
 		(start 123.19 49.53)
 		(end 161.29 67.31)
+		(radius 0.381)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -4828,10 +4829,82 @@
 			(justify left)
 		)
 	)
+	(gr_text "G"
+		(at 124.46 52.324 270)
+		(layer "F.SilkS")
+		(uuid "dc70ddf9-75c8-407c-9bd5-d12d668fe03a")
+		(effects
+			(font
+				(size 0.7112 0.6096)
+				(thickness 0.1524)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "G"
+		(at 127 52.324 270)
+		(layer "F.SilkS")
+		(uuid "16c0a6dd-d994-478d-a4da-b77e0e9ce11c")
+		(effects
+			(font
+				(size 0.7112 0.6096)
+				(thickness 0.1524)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "G"
+		(at 129.54 52.324 270)
+		(layer "F.SilkS")
+		(uuid "63b12a10-9add-4f19-a5f7-82c82394ae46")
+		(effects
+			(font
+				(size 0.7112 0.6096)
+				(thickness 0.1524)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "G"
+		(at 132.08 52.324 270)
+		(layer "F.SilkS")
+		(uuid "70a2791f-82d2-44f2-a41b-fc401aa690a5")
+		(effects
+			(font
+				(size 0.7112 0.6096)
+				(thickness 0.1524)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "G"
+		(at 134.62 52.324 270)
+		(layer "F.SilkS")
+		(uuid "59da2aee-94ae-4b74-a014-f24bfe57db27")
+		(effects
+			(font
+				(size 0.7112 0.6096)
+				(thickness 0.1524)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "MB"
 		(at 137.16 52.324 270)
 		(layer "F.SilkS")
 		(uuid "4426fc6b-0399-47bd-bf97-5d8de1cccbe4")
+		(effects
+			(font
+				(size 0.7112 0.6096)
+				(thickness 0.1524)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "G"
+		(at 139.7 52.324 270)
+		(layer "F.SilkS")
+		(uuid "bc051272-0680-4ea6-9c40-ee34269e3d98")
 		(effects
 			(font
 				(size 0.7112 0.6096)
@@ -4958,8 +5031,8 @@
 			)
 		)
 	)
-	(gr_text "r0 • Mar 2026\nCy Westbrook"
-		(at 156.972 60.452 0)
+	(gr_text "r0 • Mar 2026 • Cy Westbrook"
+		(at 142.24 59.182 0)
 		(layer "B.SilkS")
 		(uuid "dde04b7a-b213-4f11-a5b5-3c9e24c797e4")
 		(effects
@@ -4967,11 +5040,11 @@
 				(size 0.889 0.889)
 				(thickness 0.1778)
 			)
-			(justify left bottom mirror)
+			(justify top mirror)
 		)
 	)
 	(gr_text "PCM186x Breakout Board"
-		(at 156.972 57.404 0)
+		(at 142.24 58.42 0)
 		(layer "B.SilkS" knockout)
 		(uuid "668515e1-d9f3-4673-b1a2-109e19e41c30")
 		(effects
@@ -4979,7 +5052,7 @@
 				(size 1.524 1.524)
 				(thickness 0.3048)
 			)
-			(justify left bottom mirror)
+			(justify bottom mirror)
 		)
 	)
 	(segment
