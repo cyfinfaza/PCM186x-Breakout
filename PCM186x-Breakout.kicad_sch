@@ -6289,7 +6289,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS7A2031PDBVR"
+		(property "Value" "TPS7A2033PDBVR"
 			(at 60.96 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
